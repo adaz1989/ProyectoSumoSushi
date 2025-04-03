@@ -1,0 +1,75 @@
+:root{
+    /*Colores*/
+    --color-principal: #8B0201;
+    --color-secundario: #D80123 ;
+
+    --color-fondo-principal: #241E20;
+    --color-fondo-secundario: #575858;
+
+    --color-texto-principal: #ffffff;
+    /* --color-texto-secundario: #666; */
+
+    /*Texto*/
+    --fuente-primaria: 'Merriweather , sans-serif';
+    --fuente-secundaria: 'Georgia, serif';
+    --fuente-terciaria: 'Courier New, monospace';
+
+    /* --tamanio-titulos: 3vw; */
+    --tamanio-titulos: clamp(1.5rem, 3.5vw + 1rem, 2.5rem);
+    --tamanio-subtitulos: clamp(1.5rem, 2.5vw + 1rem, 2.5rem); 
+    --tamanio-texto: clamp(1.1rem, 1.8vw + 1rem, 1.8rem);
+
+
+    --altura-linea-primaria: 1.5;
+    --altura-linea-secundaria: 1.4;
+    --altura-linea-terciaria: 1.3;
+
+    /*Otros*/
+    --border-radius: 10px;
+
+}
+
+/*Reset global de márgenes y padding*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Hack para que 1rem sean 10px*/
+html{
+    font-size: 67.4%;
+    background-color: var(--color-fondo-principal);
+} 
+
+h1,h2{
+    font-family: var(--fuente-primaria);
+    font-size: var(--tamanio-titulos);
+    font-weight: 900;
+    line-height: var(--altura-linea-primaria);
+    color: var(--color-texto-principal);
+}
+
+h3{
+    font-family: var(--fuente-secundaria);
+    font-size: var(--tamanio-subtitulos);
+    font-weight: 600;
+    line-height: var(--altura-linea-secundaria);
+    color: var(--color-texto-principal);
+}
+
+p{
+    font-size: var(--tamanio-texto);
+    font-family: var(--fuente-terciaria);
+    font-weight: 400;
+    line-height: var(--altura-linea-terciaria);
+    color: var(--color-texto-principal);
+}
+
+i{
+  font-size: var(--tamanio-titulos);
+  color: var(--color-texto-principal);
+}
+fsf
