@@ -12,8 +12,8 @@
     const intervaloMilisegundos = 4000; 
     let promociones: Promocion[] = [
         { id: '123', imagen: 'img/Promo1.png' },
-        { id: '456', imagen: 'img/Promo1.png' },
-        { id: '789', imagen: 'img/Promo1.png' }
+        { id: '456', imagen: 'img/Promo2.png' },
+        { id: '789', imagen: 'img/Promo3.png' }
     ];
     
     

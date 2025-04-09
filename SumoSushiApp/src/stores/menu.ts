@@ -23,7 +23,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Sushi de Salmón",
                 Precio: 5500,
                 Descripcion: "Sushi de salmón fresco con arroz de calidad.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto1.png",
                 Etiquetas: []
             },
             {
@@ -31,7 +31,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Sushi de Atún",
                 Precio: 5000,
                 Descripcion: "Sushi de atún fresco acompañado de aguacate y arroz.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto2.png",
                 Etiquetas: []  
             },
             {
@@ -39,7 +39,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Sushi Vegetariano",
                 Precio: 4500,
                 Descripcion: "Sushi de vegetales frescos como pepino, zanahoria y aguacate.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto3.png",
                 Etiquetas: ["vegetariano", "picante"]
             }
         ]
@@ -52,7 +52,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Ramen de Cerdo",
                 Precio: 6000,
                 Descripcion: "Sopa de ramen con cerdo, huevo y verduras.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto4.png",
                 Etiquetas: ["picante"]  
             },
             {
@@ -60,7 +60,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Tempura de Camarones",
                 Precio: 4700,
                 Descripcion: "Camarones empanizados y fritos, servidos con salsa.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto5.png",
                 Etiquetas: [] 
             },
             {
@@ -68,7 +68,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Ternera a la Plancha",
                 Precio: 3500,
                 Descripcion: "Ternera cocinada a la plancha con salsa teriyaki y arroz.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto1.png",
                 Etiquetas: []  
             }
         ]
@@ -81,7 +81,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Combo Sushi 12 piezas",
                 Precio: 5000,
                 Descripcion: "12 piezas de sushi variados (atún, salmón, aguacate).",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto2.png",
                 Etiquetas: []  
             },
             {
@@ -89,7 +89,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Combo Ramen y Sushi",
                 Precio: 4750,
                 Descripcion: "Un ramen de cerdo acompañado de 6 piezas de sushi.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto3.png",
                 Etiquetas: ["picante"]  
             },
             {
@@ -97,7 +97,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Combo Familiar",
                 Precio: 5250,
                 Descripcion: "2 ramen, 2 temaki y 18 piezas de sushi.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto4.png",
                 Etiquetas: []  
             }
         ]
@@ -110,7 +110,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Té Verde",
                 Precio: 1500,
                 Descripcion: "Refresco natural de té verde servido frío.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto5.png",
                 Etiquetas: [] 
             },
             {
@@ -118,7 +118,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Soda de Lichi",
                 Precio: 2000,
                 Descripcion: "Soda refrescante de sabor lichi.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto1.png",
                 Etiquetas: [] 
             },
             {
@@ -126,7 +126,7 @@ export const menu = writable<Categoria[]>([
                 Nombre: "Agua Mineral",
                 Precio: 1250,
                 Descripcion: "Agua mineral refrescante.",
-                ImagenUrl: "img/Promo1.png",
+                ImagenUrl: "img/producto2.png",
                 Etiquetas: []  
             }
         ]

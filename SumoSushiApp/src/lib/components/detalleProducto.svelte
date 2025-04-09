@@ -77,7 +77,7 @@
                             />
                             
                             <Boton 
-                                texto={'Componente'} 
+                                texto={'Cancelar'} 
                                 onClick={ocultarDetalle}
                                 clase={'btn btn--cancelar'}
                             />
@@ -118,6 +118,7 @@
     .producto__botones {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 10px;
         width:100%;
     }

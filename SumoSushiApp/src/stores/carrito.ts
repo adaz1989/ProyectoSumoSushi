@@ -16,7 +16,7 @@ export const carrito = writable<Producto[]>([
         Nombre: "Sushi de Salmón",
         Precio: 5500,
         Descripcion: "Sushi de salmón fresco con arroz de calidad.",
-        ImagenUrl: "img/Promo1.png",
+        ImagenUrl: "img/producto1.png",
         Etiquetas: [],
         Cantidad: 2
     },
@@ -25,7 +25,7 @@ export const carrito = writable<Producto[]>([
         Nombre: "Ramen de Cerdo",
         Precio: 6000,
         Descripcion: "Sopa de ramen con cerdo, huevo y verduras.",
-        ImagenUrl: "img/Promo1.png",
+        ImagenUrl: "img/producto2.png",
         Etiquetas: ["picante"],
         Cantidad: 1
     }

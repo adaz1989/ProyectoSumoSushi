@@ -94,5 +94,9 @@
         border-bottom-left-radius: var(--border-radius);
     }
 
+    .menuActivo a{
+        font-weight: bold;
+    }
+
 
 </style>
